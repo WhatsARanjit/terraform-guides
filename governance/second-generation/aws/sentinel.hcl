@@ -3,7 +3,7 @@
 #}
 
 policy "limit-cost-by-workspace-type" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 #policy "require-private-acl-and-kms-for-s3-buckets" {
